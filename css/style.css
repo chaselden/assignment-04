@@ -1,0 +1,116 @@
+*{
+   box-sizing: border-box;
+}
+
+html{
+   font-size: 12px;
+}
+body{
+  margin: 0 auto;
+  font-family: "Helevetica Neue", 'Helvetica', sans-serif;
+}
+img {
+   display: block;
+   width: 100%;
+}
+#app-container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+span {
+  color: blue;
+}
+.column-container-moma > * img{
+  display: inline-block;
+}
+.column-container-moma{
+    background-color: rgb(44,44,44);
+}
+#logo{
+  width: 22%;
+}
+#logo-label{
+  width: 76%;
+}
+
+#smaller-header button{
+  display: inline-block;
+  background-color: pink;
+}
+.about p{
+  margin-right: 80px;
+}
+.legacy p{
+  margin-right: 80px;
+}
+.future h2{
+  font size: 75px;
+}
+
+.column-container-page{
+  font-size: 0;
+  width: 960px;
+}
+
+.column-container-page .column-container-page-left{
+  display: inline-block;
+  width: 70%;
+  font-size: medium;
+  vertical-align: top;
+}
+.column-container-page .column-container-page-right{
+  display: inline-block;
+  width: 30%;
+  font-size: medium;
+  vertical-align: top;
+}
+
+.column-container-future{
+  font-size: 0;
+}
+.column-container-future .future-one{
+  display:inline-block;
+  width: 50%;
+  font-size: medium;
+  vertical-align: top;
+}
+.column-container-future .future-two{
+  display: inline-block;
+  width: 50%;
+  font-size: medium;
+  vertical-align: top;
+}
+
+.column-container-alfred{
+  font-size: 0;
+}
+.column-container-alfred .column-one{
+  display: inline-block;
+  width: 50%;
+  font-size: medium;
+  vertical-align: top;
+}
+.column-container-alfred .column-two{
+  display: inline-block;
+  width: 50%;
+  font-size: medium;
+  vertical-align: top;
+}
+.upcoming{
+  font-size: 0;
+}
+.upcoming strong{
+  color: grey;
+}
+.upcoming .text{
+  display: inline-block;
+  width: 70%;
+  font-size: medium;
+  vertical-align: top
+}
+.upcoming .pic{
+  display: inline-block;
+  width: 30%;
+  font-size: medium;
+  vertical-align: top
+}
